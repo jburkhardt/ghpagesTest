@@ -1,12 +1,14 @@
 ---
-title: "Read the docs Test"
+title: "Read the docs ![logo](image.png)"
 date: "`r Sys.Date()`"
-author: "Johannes"
+author: "[Johannes](https://github.com/jburkhardt), [Matthias](https://github.com/mbannert)"
 output:
   rmdformats::readthedown:
     highlight: kate
+    css: styles.css
 ---
 
+![](image.png)
 
 ```{r knitr_init, echo=FALSE, cache=FALSE}
 library(knitr)
